@@ -94,10 +94,6 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
@@ -144,8 +140,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#supervision" id="toc-supervision" class="nav-link" data-scroll-target="#supervision">Supervision</a></li>
   <li><a href="#service-and-leadership" id="toc-service-and-leadership" class="nav-link" data-scroll-target="#service-and-leadership">Service and Leadership</a></li>
   <li><a href="#invited-talks-and-seminars" id="toc-invited-talks-and-seminars" class="nav-link" data-scroll-target="#invited-talks-and-seminars">Invited Talks and Seminars</a></li>
-  <li><a href="#professional-activities" id="toc-professional-activities" class="nav-link" data-scroll-target="#professional-activities">Professional Activities</a></li>
-  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
   <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a></li>
   </ul>
 </nav>
@@ -274,31 +268,21 @@ Center for Subsurface Modeling <br> <a href="https://oden.utexas.edu">Institute 
 <p><strong>Level-set parameterisations for Ensemble Kalman Inversion</strong> <br> SIAM UQ, 12th of April, 2022.</p>
 <p><strong>Ensemble Kalman Inversion for the non-destructive evaluation of composite materials.</strong> <br> AIP 2019, Grenoble, 10th of July, 2019</p>
 <p><strong>Ensemble Kalman Inversion (EKI):from subsurface environments to composite materials</strong> <br> FrontUQ18, September 5th, 2018. Pavia, Italy.</p>
-<hr>
-</section>
-<section id="professional-activities" class="level2">
-<h2 class="anchored" data-anchor-id="professional-activities">Professional Activities</h2>
-<ul>
-<li>Member of XXXXX Society<br>
-</li>
-<li>Reviewer for journals including XXXXX<br>
-</li>
-<li>External examiner (if applicable)</li>
-</ul>
-<hr>
-</section>
-<section id="skills" class="level2">
-<h2 class="anchored" data-anchor-id="skills">Skills</h2>
-<ul>
-<li>Programming: R, Python, MATLAB, C++<br>
-</li>
-<li>Scientific computing and numerical methods<br>
-</li>
-<li>Bayesian inference and UQ<br>
-</li>
-<li>High-performance computing</li>
-</ul>
-<hr>
+<!---
+
+---
+
+
+## Professional Activities
+
+- Member of XXXXX Society  
+- Reviewer for journals including XXXXX  
+- External examiner (if applicable)
+
+
+---
+
+--->
 </section>
 <section id="contact" class="level2">
 <h2 class="anchored" data-anchor-id="contact">Contact</h2>
@@ -403,7 +387,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/Marco-Iglesias-Nottingham\.github\.io\/my-quarto-website\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

@@ -56,20 +56,6 @@
     "text": "Invited Talks and Seminars\nEnsemble Kalman Inversion for Magnetic Resonance Elastography  Numerical Brain: Inverse and Forward Problems  VU Amsterdam, October 21–23, 2024\nLevel-set parameterisations in Ensemble Kalman Inversion for applications in manufacturing engineering, geophysics and medical imaging  Seminar Leicester November 6th, 2024.\nEnsemble Kalman Inversion for Shape Identification  HKSIAM 2023, August 28th, 2023\nEnsemble Kalman inversion for PDE-constrained tomographic imaging  Recent Advances in Inverse Problems and Imaging,  University of Birmingham, November 10th, 2023.\nLevel-set parameterisations for Ensemble Kalman Inversion ICIAM 2023, August 24th, 2023.\nEnsemble Kalman Inversion for the Characterisation of Thermal Bridges in Buildings’ Walls  IAM CSE23, 28th February, 2023\nFull-waveform inversion for ground penetrating radar via ensemble Kalman inversion Rich and Nonlinear Tomography (RNT) in Radar, Astronomy and Geophysics, 1st February, 2023.\nLevel-set parameterisations in Ensemble Kalman Inversion for applications in manufacturing engineering, geophysics and medical imaging  Stochastic Numerics and Statistical Learning: Theory and Applications Workshop, May 16th, 2022.\nEnsemble Kalman Inversion: a derivative-free tool for PDE-constrained parameter identification problems.  Numerical Analysis Seminar, University of Iowa, November 1st, 2022.\nLevel-set parameterisations for Ensemble Kalman Inversion  SIAM UQ, 12th of April, 2022.\nEnsemble Kalman Inversion for the non-destructive evaluation of composite materials.  AIP 2019, Grenoble, 10th of July, 2019\nEnsemble Kalman Inversion (EKI):from subsurface environments to composite materials  FrontUQ18, September 5th, 2018. Pavia, Italy."
   },
   {
-    "objectID": "cv.html#professional-activities",
-    "href": "cv.html#professional-activities",
-    "title": "Curriculum Vitae",
-    "section": "Professional Activities",
-    "text": "Professional Activities\n\nMember of XXXXX Society\n\nReviewer for journals including XXXXX\n\nExternal examiner (if applicable)"
-  },
-  {
-    "objectID": "cv.html#skills",
-    "href": "cv.html#skills",
-    "title": "Curriculum Vitae",
-    "section": "Skills",
-    "text": "Skills\n\nProgramming: R, Python, MATLAB, C++\n\nScientific computing and numerical methods\n\nBayesian inference and UQ\n\nHigh-performance computing"
-  },
-  {
     "objectID": "cv.html#contact",
     "href": "cv.html#contact",
     "title": "Curriculum Vitae",
@@ -88,9 +74,8 @@
     "href": "research/apps/ERT.html",
     "title": "Electrical Resistivity Tomography",
     "section": "",
-    "text": "👥 Collaborators\n\n\n\n\nAndy Binley (Lancaster University)\nMichael Tso (UK Centre for Ecology and Hydrology)\nOliver Kuras (British Geological Survey)\nPaul Wilkinson (British Geological Survey)\n\n\n\n\n\n\nRight: Inference of electrical Resistivity (Eggborough field) Left: Other imaging modalities to cross-validate EKI\n\n\n\n\n\n\n\n\nReferences",
+    "text": "👥 Collaborators\n\n\n\n\nAndy Binley (Lancaster University)\nMichael Tso (UK Centre for Ecology and Hydrology)\nOliver Kuras (British Geological Survey)\nPaul Wilkinson (British Geological Survey)\n\n\n\nWe have applied Ensemble Kalman Inversion (EKI) combined with level-set parameterizations to infer subsurface electrical properties from Electrical Resistivity Tomography (ERT) data [1], and subsequently extended this framework to Induced Polarization measurements [2]. Our numerical experiments demonstrate that, in contrast to standard smoothness-constrained optimization approaches, the level-set formulation enables more accurate identification of interfaces between different lithofacies.\n\n\n\nRight: Inference of electrical Resistivity (Eggborough field) Left: Other imaging modalities to cross-validate EKI\n\n\n\n\n\n\n\n\nReferences\n\n\n\n\n\n[1] C.-H. M. Tso, M. Iglesias, P. Wilkinson, O. Kuras, J. Chambers, and A. Binley, “Efficient multiscale imaging of subsurface resistivity with uncertainty quantification using ensemble kalman inversion,” Geophysical Journal International, vol. 225, no. 2, pp. 887–905, Jan. 2021, doi: 10.1093/gji/ggab013.\n\n\n[2] C.-H. M. Tso, M. Iglesias, and A. Binley, “Ensemble kalman inversion of induced polarization data,” Geophysical Journal International, vol. 236, no. 3, pp. 1877–1900, Jan. 2024, doi: 10.1093/gji/ggae012.",
     "crumbs": [
-      "Research",
       "Applications",
       "Electrical Resistivity Tomography"
     ]
@@ -98,13 +83,12 @@
   {
     "objectID": "research/apps/MRE.html",
     "href": "research/apps/MRE.html",
-    "title": "Magnetic Resonance Elastography",
+    "title": "Magnetic Resonance Elastography (MRE)",
     "section": "",
-    "text": "👥 Collaborators\n\n\n\n\nSusan Francis (Sir Peter Mansfield Imaging Centre, University of Nottingham)\nMichael Tretyakov (School of Mathematical Sciences, University of Nottingham)\n\n\n\n\n\n\nMRE. EKI outcomes",
+    "text": "👥 Collaborators\n\n\n\n\nSusan Francis (Sir Peter Mansfield Imaging Centre, University of Nottingham)\nMichael Tretyakov (School of Mathematical Sciences, University of Nottingham)\n\n\n\nMRE is a non-invasive, radiation-free imaging technique designed to reconstruct the viscoelastic properties of biological tissue. A mechanical driver is placed on the patient to induce shear waves at a prescribed frequency. The resulting displacement fields are imaged using Magnetic Resonance Imaging, and these measured displacements are subsequently inverted to recover the tissue storage and loss moduli. In the work of [1], we employed Ensemble Kalman Inversion (EKI) to infer these properties using a viscoelastic tissue model. Spatial variability within each kidney region was represented using Gaussian random fields, while a level-set approach was used to parameterize the potential presence of malignancies.\n\n\n\nEKI was used to infer the storage modulus of a synthetic kidney along side the geometry of two cysts within the cortex of the kidney\n\n\n\n\n\n\n\n\nReferences\n\n\n\n\n\n[1] M. Iglesias, D. M. McGrath, M. V. Tretyakov, and S. T. Francis, “Ensemble kalman inversion for magnetic resonance elastography,” Physics in Medicine & Biology, vol. 67, no. 23, p. 235003, Nov. 2022, doi: 10.1088/1361-6560/ac9fa1.",
     "crumbs": [
-      "Research",
       "Applications",
-      "Magnetic Resonance Elastography"
+      "Magnetic Resonance Elastography (MRE)"
     ]
   },
   {
@@ -114,7 +98,6 @@
     "section": "",
     "text": "Resin Transfer Moulding (RTM)\n\n\n\n\n\n\n👥 Collaborators\n\n\n\n\nMichael Causon (School of Mathematical Sciences, University of Nottingham)\nAndreas Endruweit (Composites Group, Faculty of Engineering, University of Nottingham)\nMikhail Matveev (Composites Group, Faculty of Engineering, University of Nottingham)\nMichael Tretyakov (School of Mathematical Sciences, University of Nottingham)\n\n\n\nMuch of my work has been motivated by the application of inverse problem methodology to Resin Transfer Moulding (RTM). In particular, the goal is to characterise local variations in permeability and porosity within a fibre reinforcement using in-process measurements, such as pressure data and resin front position, collected during the infusion process.\nOur initial work applied Ensemble Kalman Inversion (EKI) to infer permeability fields and compared its performance with Sequential Monte Carlo methods using synthetic experiments [1]. We subsequently combined EKI with level-set parameterisations and demonstrated, using real experimental data, that this approach can be highly effective for identifying defects in composite materials , see Figure 1.\nMore recently, we have explored deep learning approaches to accelerate the inversion process, motivated by the need for real-time inference in practical applications in order to inform active control strategies. In [2], we employed a shallow neural network to learn the forward map over a parametrised domain consisting of 81 zones and to estimate spatially varying permeability and porosity. To extend this approach to the infinite-dimensional setting, where entire functions must be inferred, we developed a DeepONet-based surrogate model in [3], which enables efficient emulation of the forward map and facilitates fast Bayesian inversion.\n\n\n\n\n\n\nFigure 1: Inferred Porosity\n\n\n\n\n\n\n\n\n\nReferences\n\n\n\n\n\n[1] M. Iglesias, M. Park, and M. V. Tretyakov, “Bayesian inversion in resin transfer molding,” Inverse Problems, vol. 34, no. 10, p. 105002, Jul. 2018, doi: 10.1088/1361-6420/aad1cc.\n\n\n[2] M. E. Causon, M. A. Iglesias, M. Y. Matveev, A. Endruweit, and M. V. Tretyakov, “Real-time Bayesian inversion in resin transfer moulding using neural surrogates,” Composites Part A: Applied Science and Manufacturing, vol. 185, p. 108355, 2024, doi: https://doi.org/10.1016/j.compositesa.2024.108355.\n\n\n[3] M. A. Iglesias, Michael. E. Causon, M. Y. Matveev, A. Endruweit, and M. V. Tretyakov, “DeepONet-accelerated Bayesian inversion for moving boundary problems.” 2025. Available: https://arxiv.org/abs/2512.20268",
     "crumbs": [
-      "Research",
       "Applications",
       "Resin Transfer Moulding (RTM)"
     ]
@@ -124,9 +107,8 @@
     "href": "research/Emulators.html",
     "title": "Deep Learning Emulators",
     "section": "",
-    "text": "Bayesian inverse problems are often computationally expensive, particularly for Bayesian and ensemble-based methods, as they require repeated evaluations of the forward model. In recent work, I have been exploring the use of deep learning techniques to construct surrogate models (emulators) that significantly reduce this computational burden. This line of research is primarily motivated by a resin infusion problem arising in composite manufacturing, where real-time or near–real-time inversion is essential [1], [2]. In the most recent work [2], we employ a variant of DeepONet to emulate the predictions of resin flow into a fibre reinforcement, with the network trained using data generated from a high-fidelity simulator. The resulting emulator is then embedded within an inverse problem framework to perform efficient parameter inference. Figure 1 illustrates the DeepONet predictions, calibrated using experimental data via Ensemble Kalman Inversion (EKI), to estimate the evolution of the resin front at different times in the presence of material defects. For comparison, we also show corresponding snapshots of the resin position obtained from laboratory experiments.\n\n\n\n\n\n\nFigure 1: EKI-calibrated DeepONet predictions\n\n\n\n\n\n\n\n\n\nReferences\n\n\n\n\n\n[1] M. E. Causon, M. A. Iglesias, M. Y. Matveev, A. Endruweit, and M. V. Tretyakov, “Real-time Bayesian inversion in resin transfer moulding using neural surrogates,” Composites Part A: Applied Science and Manufacturing, vol. 185, p. 108355, 2024, doi: https://doi.org/10.1016/j.compositesa.2024.108355.\n\n\n[2] M. A. Iglesias, Michael. E. Causon, M. Y. Matveev, A. Endruweit, and M. V. Tretyakov, “DeepONet-accelerated Bayesian inversion for moving boundary problems.” 2025. Available: https://arxiv.org/abs/2512.20268",
+    "text": "Bayesian inverse problems are often computationally expensive, particularly for Bayesian and ensemble-based methods, as they require repeated evaluations of the forward model. In recent work, I have been exploring the use of deep learning techniques to construct surrogate models (emulators) that significantly reduce this computational burden. This line of research is primarily motivated by a resin infusion problem arising in composite manufacturing, where real-time or near–real-time inversion is essential [1], [2]. In the most recent work [2], we employ a variant of DeepONet to emulate the predictions of resin flow into a fibre reinforcement, with the network trained using data generated from a high-fidelity simulator. The resulting emulator is then embedded within an inverse problem framework to perform efficient parameter inference. Figure 1 illustrates the DeepONet predictions, calibrated using experimental data via Ensemble Kalman Inversion (EKI), to estimate the evolution of the resin front at different times in the presence of material defects. For comparison, we also show corresponding snapshots of the resin position obtained from laboratory experiments.\n\n\n\n\n\n\nFigure 1: Top: Real resin front propagation. Middle and bottom: EKI-calibrated DeepONet predictions (filling factor and pressure).\n\n\n\n\n\n\n\n\n\nReferences\n\n\n\n\n\n[1] M. E. Causon, M. A. Iglesias, M. Y. Matveev, A. Endruweit, and M. V. Tretyakov, “Real-time Bayesian inversion in resin transfer moulding using neural surrogates,” Composites Part A: Applied Science and Manufacturing, vol. 185, p. 108355, 2024, doi: https://doi.org/10.1016/j.compositesa.2024.108355.\n\n\n[2] M. A. Iglesias, Michael. E. Causon, M. Y. Matveev, A. Endruweit, and M. V. Tretyakov, “DeepONet-accelerated Bayesian inversion for moving boundary problems.” 2025. Available: https://arxiv.org/abs/2512.20268",
     "crumbs": [
-      "Research",
       "Methods",
       "Deep Learning Emulators"
     ]
@@ -138,7 +120,6 @@
     "section": "",
     "text": "My work on Ensemble Kalman Inversion (EKI) originated with the paper [1], where concepts from the Ensemble Kalman Filter (EnKF), introduced by Evensen, were reformulated as an iterative solver for PDE-constrained inverse problems. Although similar ensemble ideas had previously been used for parameter identification in oil reservoir modelling, this work provided a unifying inverse problems perspective. As a result, EKI gained broader visibility within the inverse problems community and has since grown into an independent and active research direction.",
     "crumbs": [
-      "Research",
       "Methods",
       "Ensemble Kalman Inversion (EKI)"
     ]
@@ -150,7 +131,6 @@
     "section": "",
     "text": "My work on Ensemble Kalman Inversion (EKI) originated with the paper [1], where concepts from the Ensemble Kalman Filter (EnKF), introduced by Evensen, were reformulated as an iterative solver for PDE-constrained inverse problems. Although similar ensemble ideas had previously been used for parameter identification in oil reservoir modelling, this work provided a unifying inverse problems perspective. As a result, EKI gained broader visibility within the inverse problems community and has since grown into an independent and active research direction.",
     "crumbs": [
-      "Research",
       "Methods",
       "Ensemble Kalman Inversion (EKI)"
     ]
@@ -162,7 +142,6 @@
     "section": "EKI from an Iterative Regularisation Perspective",
     "text": "EKI from an Iterative Regularisation Perspective\nThe initial work in [1] showed that a straightforward application of the EnKF as an iterative solver can suffer from stability issues similar to those encountered in classical iterative methods for ill-posed inverse problems: although the data misfit may decrease, the reconstruction error can grow. This observation motivated my subsequent work in [2], where ideas from Hanke’s regularising Levenberg–Marquardt method were adapted to modify EKI through the introduction of a regularisation parameter. From a heuristic perspective, this modification can be viewed as motivating EKI as a derivative-free approximation of the Levenberg–Marquardt method, in which ensemble-based covariances play the role of approximating local sensitivity information. The resulting scheme enables smoother updates and provides a principled stopping criterion. Although no theoretical analysis was developed at the time, the numerical results were very encouraging.",
     "crumbs": [
-      "Research",
       "Methods",
       "Ensemble Kalman Inversion (EKI)"
     ]
@@ -174,7 +153,6 @@
     "section": "EKI from a Bayesian Perspective.",
     "text": "EKI from a Bayesian Perspective.\nFrom a Bayesian perspective, EKI can be heuristically motivated using ideas from sequential Monte Carlo methods, where tempering is employed to construct a sequence of intermediate measures bridging the prior and the posterior. Within this viewpoint, EKI may be interpreted as replacing each intermediate posterior by a Gaussian approximation, linearising the forward map, and substituting explicit derivative information with ensemble-based covariance estimates. In the works [3], [4], we adopted this perspective to derive alternative, adaptive choices of the regularisation parameter in EKI, leading to methods that are robust and stable while still achieving fast convergence.\n\n\n\n\n\n\nReferences\n\n\n\n\n\n[1] M. A. Iglesias, K. J. H. Law, and A. M. Stuart, “Ensemble kalman methods for inverse problems,” Inverse Problems, vol. 29, no. 4, p. 045001, Mar. 2013, doi: 10.1088/0266-5611/29/4/045001.\n\n\n[2] M. A. Iglesias, “A regularizing iterative ensemble Kalman method for PDE-constrained inverse problems,” Inverse Problems, vol. 32, no. 2, p. 025002, 2016, Available: http://stacks.iop.org/0266-5611/32/i=2/a=025002\n\n\n[3] M. Iglesias and Y. Yang, “Adaptive regularisation for ensemble kalman inversion,” Inverse Problems, vol. 37, no. 2, p. 025008, Jan. 2021, doi: 10.1088/1361-6420/abd29b.\n\n\n[4] M. Iglesias, M. Park, and M. V. Tretyakov, “Bayesian inversion in resin transfer molding,” Inverse Problems, vol. 34, no. 10, p. 105002, Jul. 2018, doi: 10.1088/1361-6420/aad1cc.",
     "crumbs": [
-      "Research",
       "Methods",
       "Ensemble Kalman Inversion (EKI)"
     ]
@@ -186,7 +164,6 @@
     "section": "",
     "text": "I began working on Bayesian inversion during my postdoctoral research at the University of Warwick, under the supervision of Andrew Stuart. In [1], we compared a range of approximate and heuristic Bayesian inversion methods and benchmarked their performance against preconditioned Crank–Nicolson (pCN) MCMC, with applications to oil reservoir models.\nIn subsequent work, I explored Sequential Monte Carlo methods for Bayesian inversion in the context of resin infusion into fibre reinforcements [2], motivated by applications in composite manufacturing. I have also investigated transform particle filters and related ensemble-based particle methods in [3], with a focus on scalable inference in high-dimensional settings.\n\n\n\n\n\n\nReferences\n\n\n\n\n\n[1] M. A. Iglesias, K. J. H. Law, and A. M. Stuart, “Evaluation of Gaussian approximations for data assimilation in reservoir models,” Computational Geosciences, vol. 17, no. 5, pp. 851–885, 2013, doi: 10.1007/s10596-013-9359-x.\n\n\n[2] M. Iglesias, M. Park, and M. V. Tretyakov, “Bayesian inversion in resin transfer molding,” Inverse Problems, vol. 34, no. 10, p. 105002, Jul. 2018, doi: 10.1088/1361-6420/aad1cc.\n\n\n[3] S. Ruchi, S. Dubinkina, and M. A. Iglesias, “Transform-based particle filtering for elliptic bayesian inverse problems,” Inverse Problems, vol. 35, no. 11, p. 115005, Oct. 2019, doi: 10.1088/1361-6420/ab30f3.",
     "crumbs": [
-      "Research",
       "Methods",
       "Bayesian Inversion"
     ]
@@ -194,14 +171,23 @@
   {
     "objectID": "research/index.html",
     "href": "research/index.html",
-    "title": "Overview",
+    "title": "Research",
     "section": "",
-    "text": "Ensemble Kalman Inversion\nDeep Learning Emulators\nBayesian Inversion\nLevel-sets\nIterative Regularisation",
-    "crumbs": [
-      "Research",
-      "Methods",
-      "Overview"
-    ]
+    "text": "Ensemble Kalman Inversion (EKI)\nDeep Learning Emulators\nBayesian Inversion\nIterative Regularisation\nLevel-set Parameterisations\n\n\n\n\n\nResin Transfer Moulding (RTM)\nThermophysical Imaging of Buildings’ Walls\nMagnetic Resonance Elastography (MRE)\nElectrical Resistivity Tomography"
+  },
+  {
+    "objectID": "research/index.html#methods",
+    "href": "research/index.html#methods",
+    "title": "Research",
+    "section": "",
+    "text": "Ensemble Kalman Inversion (EKI)\nDeep Learning Emulators\nBayesian Inversion\nIterative Regularisation\nLevel-set Parameterisations"
+  },
+  {
+    "objectID": "research/index.html#applications",
+    "href": "research/index.html#applications",
+    "title": "Research",
+    "section": "",
+    "text": "Resin Transfer Moulding (RTM)\nThermophysical Imaging of Buildings’ Walls\nMagnetic Resonance Elastography (MRE)\nElectrical Resistivity Tomography"
   },
   {
     "objectID": "research/iterative.html",
@@ -210,7 +196,6 @@
     "section": "",
     "text": "My work on iterative regularisation dates back to my PhD research, where I combined the representer method with the Levenberg–Marquardt algorithm to solve parameter identification problems arising in flow through porous media, primarily motivated by applications to oil reservoir modelling [1], [2], [3]. I have also employed regularising Newton–CG methods for coupled flow and geomechanical models [4]. Much of this earlier work motivated my later efforts to endow Ensemble Kalman Inversion (EKI) with regularising properties, with the aim of improving stability for ill-posed inverse problems [5]. More recently, in collaboration with Shuai Lu (Fudan University), Frank Werner (University of Würzburg), and Neil Chada (The University of Hong Kong), we have investigated new variants of the Iteratively Regularised Gauss–Newton method designed to incorporate dynamic data and time-dependent observations, with applications to large-scale inverse problems [6].\n\n\n\n\n\n\nReferences\n\n\n\n\n\n[1] M. A. Iglesias and C. Dawson, “The representer method for state and parameter estimation in single-phase Darcy flow,” Comp. Meth. Appl. Mech. Eng., vol. 196, pp. 4577–4596, 2007.\n\n\n[2] M. A. Iglesias and C. Dawson, “An iterative representer-based scheme for data inversion in reservoir modeling,” Inverse Problems, vol. 25, p. 035006, 2009.\n\n\n[3] M. A. Iglesias, “A regularizing iterative ensemble kalman method for PDE-constrained inverse problems,” Inverse Problems, vol. 32, no. 2, p. 025002, Jan. 2016, doi: 10.1088/0266-5611/32/2/025002.\n\n\n[4] M. A. Iglesias and D. McLaughlin, “Data inversion in coupled subsurface flow and geomechanics models,” Inverse Problems, vol. 28, p. 115009, 2012.\n\n\n[5] M. A. Iglesias, “A regularizing iterative ensemble Kalman method for PDE-constrained inverse problems,” Inverse Problems, vol. 32, no. 2, p. 025002, 2016, Available: http://stacks.iop.org/0266-5611/32/i=2/a=025002\n\n\n[6] N. K. Chada, M. Iglesias, S. Lu, and F. Werner, “On a dynamic variant of the iteratively regularized gauss–newton method with sequential data,” SIAM Journal on Scientific Computing, vol. 45, no. 6, pp. A3020–A3046, 2023, doi: 10.1137/22M1512442.",
     "crumbs": [
-      "Research",
       "Methods",
       "Iterative Regularisation"
     ]
@@ -222,7 +207,6 @@
     "section": "",
     "text": "Many of the practical inverse problems I work on involve the inference of physical properties that are heterogeneous and often exhibit sharp discontinuities, arising from the presence of anomalies. Examples include medical imaging, defect detection in composite materials, and the identification of regions with markedly different properties in the subsurface.\nTo address these challenges, I have worked extensively on level-set parameterisations, an approach originally introduced by Santosa in the 1990s for representing interfaces and evolving geometries. My early work in this area, carried out during my postdoctoral research at MIT, combined level-set methods with the Levenberg–Marquardt algorithm to characterise different lithofacies in oil reservoir models [1]. A key challenge in this setting is the need to compute shape derivatives.\nTo overcome this difficulty, I later proposed incorporating level-set parameterisations within the Ensemble Kalman Inversion (EKI) framework in [2], thereby avoiding explicit derivative calculations. This approach was further developed and analysed in subsequent work [3].\nFrom a fully Bayesian perspective, joint work with Andrew Stuart and Yu Long established a rigorous foundation for level-set parameterisations in geometric inverse problems [4]. This framework was subsequently extended to a hierarchical Bayesian formulation in collaboration with Andrew Stuart and Matt Dunlop [5]\n\n\n\n\n\n\nReferences\n\n\n\n\n\n[1] M. A. Iglesias and D. McLaughlin, “Level-set techniques for facies identification in reservoir modeling,” Inverse Problems, vol. 27, p. 035008, 2011.\n\n\n[2] M. A. Iglesias, “A regularizing iterative ensemble Kalman method for PDE-constrained inverse problems,” Inverse Problems, vol. 32, no. 2, p. 025002, 2016, Available: http://stacks.iop.org/0266-5611/32/i=2/a=025002\n\n\n[3] N. K. Chada, M. A. Iglesias, L. Roininen, and A. M. Stuart, “Parameterizations for ensemble kalman inversion,” Inverse Problems, vol. 34, no. 5, p. 055009, Apr. 2018, doi: 10.1088/1361-6420/aab6d9.\n\n\n[4] M. A. Iglesias, Y. Lu, and A. Stuart, “A Bayesian level set method for geometric inverse problems,” Interfaces Free Boundries, vol. 18, pp. 181–217, 2016.\n\n\n[5] M. M. Dunlop, M. A. Iglesias, and A. M. Stuart, “Hierarchical bayesian level set inversion,” Statistics and Computing, vol. 27, no. 6, pp. 1555–1584, 2017, doi: 10.1007/s11222-016-9704-8.",
     "crumbs": [
-      "Research",
       "Methods",
       "Level-set Parameterisations"
     ]
@@ -234,7 +218,6 @@
     "section": "",
     "text": "👥 Collaborators\n\n\n\n\nYupeng Wu (Architecture and Built Environment, Faculty of Engineering, University of Nottingham)\nChristopher Wood (Architecture and Built Environment, Faculty of Engineering, University of Nottingham)\n\n\n\nIn the UK, a large proportion of carbon emissions are attributable to the built environment. It is estimated that around 80% of the buildings that will be standing in 2050 already exist today, making the retrofitting of the current housing stock essential for meeting decarbonisation targets. External walls are a particularly important focus, as they account for a significant fraction of heat losses in buildings. My research in this area has focused on developing techniques to accurately characterise the thermal performance of walls using in-situ measurements. Early work explored the use of Bayesian inversion based on one-dimensional heat transfer models [1], [2], [3], demonstrating that Bayesian approaches can reliably estimate key thermal performance parameters from field data. However, in existing buildings, walls often contain thermal bridges arising from material degradation, construction details, or defects. In such cases, one-dimensional models are insufficient, and higher-dimensional descriptions are required. To address this challenge, in [4] we employed a three-dimensional heat transfer model within an Ensemble Kalman Inversion (EKI) framework, combined with level-set parameterisations, to characterise wall thermal performance in the presence of thermal bridges. The proposed approach was validated using real experimental data, demonstrating its ability to capture complex heat transfer behaviour in realistic building envelopes.\n\n\n\nLevel-set parameterisation of thermal bridge\n\n\n\n\n\n\n\n\n\n\nFigure 1: Inferred thermal bridge\n\n\n\n\n\n\n\n\n\nFigure 2: MRE. EKI outcomes\n\n\n\n\n\n\n\n\n\n\nFigure 3: Prior and posterior predictions of surface heat flux measurements\n\n\n\n\n\n\n\n\n\n\n\nReferences\n\n\n\n\n\n[1] L. De Simon, M. Iglesias, B. Jones, and C. Wood, “Quantifying uncertainty in thermophysical properties of walls by means of bayesian inversion,” Energy and Buildings, vol. 177, pp. 220–245, 2018, doi: https://doi.org/10.1016/j.enbuild.2018.06.045.\n\n\n[2] M. Iglesias, Z. Sawlan, M. Scavino, R. Tempone, and C. Wood, “Ensemble-marginalized kalman filter for linear time-dependent PDEs with noisy boundary conditions: Application to heat transfer in building walls,” Inverse Problems, vol. 34, no. 7, p. 075008, May 2018, doi: 10.1088/1361-6420/aac224.\n\n\n[3] M. Iglesias, Z. Sawlan, M. Scavino, R. Tempone, and C. Wood, “Bayesian inferences of the thermal properties of a wall using temperature and heat flux measurements,” International Journal of Heat and Mass Transfer, vol. 116, pp. 417–431, 2018, doi: https://doi.org/10.1016/j.ijheatmasstransfer.2017.09.022.\n\n\n[4] M. Iglesias, X. Li, M. Sovetova, and Y. Wu, “Bayesian inversion for in-situ thermal characterisation of walls in the presence of thermal anomalies,” Energy and Buildings, vol. 319, p. 114558, 2024, doi: https://doi.org/10.1016/j.enbuild.2024.114558.",
     "crumbs": [
-      "Research",
       "Applications",
       "Thermophysical Imaging of Buildings' Walls"
     ]
@@ -244,12 +227,21 @@
     "href": "research/apps/index.html",
     "title": "Overview",
     "section": "",
-    "text": "Resine Transfer Moulding\nThermophysical Imaging of Buildings’ Walls\nMagnetic Resonance Elastigraphy\nElectrical Resistivity Tomography",
-    "crumbs": [
-      "Research",
-      "Applications",
-      "Overview"
-    ]
+    "text": "Resine Transfer Moulding\nThermophysical Imaging of Buildings’ Walls\nMagnetic Resonance Elastigraphy\nElectrical Resistivity Tomography"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Marco Iglesias",
+    "section": "",
+    "text": "Associate Professor of Scientific Computation\nSchool of Mathematical Sciences\nUniversity of Nottingham\n\nGoogle Scholar GitHub\n\n\n\n\n\nI am an Associate Professor of Scientific Computation in the School of Mathematical Sciences at the University of Nottingham. My research lies in computational inverse problems, with a focus on Bayesian methods for PDE-constrained inversion and uncertainty quantification. I also develop deep learning–based surrogate models to accelerate inference in large-scale applications.\nMy work is motivated by applications in composite manufacturing, geophysics, civil engineering, and medical imaging."
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Marco Iglesias",
+    "section": "",
+    "text": "I am an Associate Professor of Scientific Computation in the School of Mathematical Sciences at the University of Nottingham. My research lies in computational inverse problems, with a focus on Bayesian methods for PDE-constrained inversion and uncertainty quantification. I also develop deep learning–based surrogate models to accelerate inference in large-scale applications.\nMy work is motivated by applications in composite manufacturing, geophysics, civil engineering, and medical imaging."
   },
   {
     "objectID": "about.html",
