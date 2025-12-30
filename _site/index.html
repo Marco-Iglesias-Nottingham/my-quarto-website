@@ -33,6 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -93,10 +94,6 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
@@ -133,37 +130,35 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-jolla column-page">
-  <img src="myphoto2.jpeg" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Marco Iglesias</h1>
-<p class="subtitle lead">Associate Professor of Scientific Computation<br>School of Mathematical Sciences<br>University of Nottingham</p>
-</div>
-<div class="quarto-title-meta column-page">
-  </div>
-</header><main class="content column-page" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://scholar.google.com/..." class="about-link" rel="" target="">
-    <i class="bi bi-mortarboard"></i>
-     <span class="about-link-text">Google Scholar</span>
-  </a>
-  <a href="/cv.pdf" class="about-link" rel="" target="">
-    <i class="bi bi-file-earmark-person"></i>
-     <span class="about-link-text">CV</span>
-  </a>
-  <a href="https://github.com/..." class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
+
+
+<div class="columns">
+<div class="column text-center" style="width:40%;">
+<p><img src="myphoto.jpeg" class="img-fluid" style="border-radius:80%; width:220px;" alt="Marco Iglesias"></p>
+<section id="marco-iglesias" class="level3">
+<h3 class="anchored" data-anchor-id="marco-iglesias"><strong>Marco Iglesias</strong></h3>
+<p>Associate Professor of Scientific Computation<br>
+School of Mathematical Sciences<br>
+University of Nottingham</p>
+<div class="icon-links">
+<p><a href="https://scholar.google.com/citations?user=TDlj6SQAAAAJ&amp;hl=en">Google Scholar</a><br> <a href="https://github.com/Marco-Iglesias-Nottingham">GitHub</a></p>
+</div>
+</section>
+</div><div class="column" style="width:60%;">
+<section id="welcome" class="level2">
+<h2 class="anchored" data-anchor-id="welcome">Welcome</h2>
+<p>I am an Associate Professor of Scientific Computation in the <a href="https://www.nottingham.ac.uk/mathematics">School of Mathematical Sciences</a> at the <a href="https://www.nottingham.ac.uk">University of Nottingham</a>. My research lies in <strong>computational inverse problems</strong>, with a focus on Bayesian methods for PDE-constrained inversion and uncertainty quantification. I also develop deep learning–based surrogate models to accelerate inference in large-scale applications.</p>
+<p>My work is motivated by applications in composite manufacturing, geophysics, civil engineering, and medical imaging.</p>
+</section>
 </div>
 </div>
- <!-- /main -->
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -184,6 +179,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

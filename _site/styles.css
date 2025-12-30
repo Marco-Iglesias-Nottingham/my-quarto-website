@@ -155,3 +155,23 @@ figure figcaption {
 .callout .callout-icon-container {
   display: none;
 }
+
+
+.quarto-about-jolla {
+  max-width: 100%;
+  margin-left: 0;
+}
+
+
+.profile-img {
+  border-radius: 50%;
+}
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.icon-links a {
+  text-decoration: none;
+}
+.icon-links i {
+  margin-right: 0.4rem;
+}

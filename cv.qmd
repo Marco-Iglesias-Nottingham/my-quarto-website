@@ -302,7 +302,7 @@ AIP 2019, Grenoble, 10th of July, 2019
 <br>
 FrontUQ18, September 5th, 2018. Pavia, Italy.
 
-
+<!---
 ---
 
 ## Professional Activities
@@ -312,15 +312,7 @@ FrontUQ18, September 5th, 2018. Pavia, Italy.
 - External examiner (if applicable)
 
 ---
-
-## Skills
-
-- Programming: R, Python, MATLAB, C++  
-- Scientific computing and numerical methods  
-- Bayesian inference and UQ  
-- High-performance computing  
-
----
+--->
 
 ## Contact
 

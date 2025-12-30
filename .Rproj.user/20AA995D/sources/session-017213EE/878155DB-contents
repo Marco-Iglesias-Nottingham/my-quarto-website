@@ -10,8 +10,6 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: About
       - href: research/index.qmd
         text: Research
       - href: publications.qmd
@@ -31,7 +29,6 @@ website:
       contents:
         - section: "Methods"
           contents:
-            - research/index.qmd
             - research/EKI.qmd
             - research/Emulators.qmd
             - research/BI.qmd
@@ -39,12 +36,10 @@ website:
             - research/Level-sets.qmd
         - section: "Applications"
           contents:
-            - research/apps/index.qmd
             - research/apps/Composites.qmd
             - research/apps/Built.qmd
             - research/apps/MRE.qmd
             - research/apps/ERT.qmd
-            
 
 bibliography: publications.bib
 csl: ieee.csl
@@ -57,3 +52,4 @@ format:
     toc: false
     page-layout: full
     smooth-scroll: true
+

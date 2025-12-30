@@ -39,7 +39,7 @@ keywords = {In-situ characterisation, Thermal performance, Walls, Bayesian inver
 }
 
 
-@article{10.1093/gji/ggae012,
+@article{Tso2,
     author = {Tso, Chak-Hau Michael and Iglesias, Marco and Binley, Andrew},
     title = {Ensemble Kalman inversion of induced polarization data},
     journal = {Geophysical Journal International},
@@ -109,7 +109,7 @@ keywords = {B: Permeability, C: Computational modelling, C: Statistical properti
 }
 
 
-@article{10.1093/gji/ggab013,
+@article{Tso1,
     author = {Tso, Chak-Hau Michael and Iglesias, Marco and Wilkinson, Paul and Kuras, Oliver and Chambers, Jonathan and Binley, Andrew},
     title = {Efficient multiscale imaging of subsurface resistivity with uncertainty quantification using ensemble Kalman inversion},
     journal = {Geophysical Journal International},

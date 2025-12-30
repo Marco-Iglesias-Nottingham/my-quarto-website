@@ -1,18 +1,25 @@
-
 ---
-title: "Overview"
-toc: true
+title: Research
+page-layout: full
 ---
 
 
-
-- [Ensemble Kalman Inversion](EKI.qmd)
-
+::: {.grid}
+::: {.g-col-6}
+## 🔧 Methods
+- [Ensemble Kalman Inversion (EKI)](EKI.qmd)
 - [Deep Learning Emulators](Emulators.qmd)
-
 - [Bayesian Inversion](BI.qmd)
-
-- [Level-sets](Level-sets.qmd)
-
 - [Iterative Regularisation](iterative.qmd)
+- [Level-set Parameterisations](Level-sets.qmd)
+:::
+
+::: {.g-col-6}
+## 🌍 Applications
+- [Resin Transfer Moulding (RTM)](apps/Composites.qmd)
+- [Thermophysical Imaging of Buildings’ Walls](apps/Built.qmd)
+- [Magnetic Resonance Elastography (MRE)](apps/MRE.qmd)
+- [Electrical Resistivity Tomography](apps/ERT.qmd)
+:::
+:::
 

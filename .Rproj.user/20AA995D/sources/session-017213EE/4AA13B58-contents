@@ -8,7 +8,7 @@ This line of research is primarily motivated by a resin infusion problem arising
 @fig-deeponet-ekI illustrates the DeepONet predictions, calibrated using experimental data via Ensemble Kalman Inversion (EKI), to estimate the evolution of the resin front at different times in the presence of material defects. For comparison, we also show corresponding snapshots of the resin position obtained from laboratory experiments.
 
 
-![EKI-calibrated DeepONet predictions](Figs_for_MRE/Experiment4.svg){#fig-deeponet-ekI width="70%" fig-align="center"}
+![Top: Real resin front propagation. Middle and bottom: EKI-calibrated DeepONet predictions (filling factor and pressure).](Figs_for_MRE/Experiment4.svg){#fig-deeponet-ekI width="70%" fig-align="center"}
 
 
 ::: {.callout-note title="References"}
