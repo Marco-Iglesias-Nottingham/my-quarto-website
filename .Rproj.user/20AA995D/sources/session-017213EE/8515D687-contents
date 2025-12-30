@@ -1,0 +1,22 @@
+
+---
+title: "Level-set Parameterisations"
+toc: true
+---
+
+Many of the practical inverse problems I work on involve the inference of physical properties that are heterogeneous and often exhibit sharp discontinuities, arising from the presence of anomalies. Examples include medical imaging, defect detection in composite materials, and the identification of regions with markedly different properties in the subsurface.
+
+To address these challenges, I have worked extensively on level-set parameterisations, an approach originally introduced by Santosa in the 1990s for representing interfaces and evolving geometries. My early work in this area, carried out during my postdoctoral research at MIT, combined level-set methods with the Levenberg–Marquardt algorithm to characterise different lithofacies in oil reservoir models [@Iglesias4]. A key challenge in this setting is the need to compute shape derivatives.
+
+To overcome this difficulty, I later proposed incorporating level-set parameterisations within the Ensemble Kalman Inversion (EKI) framework in [@EnsembleYO], thereby avoiding explicit derivative calculations. This approach was further developed and analysed in subsequent work [@Chada_2018].
+
+From a fully Bayesian perspective, joint work with Andrew Stuart and Yu Long established a rigorous foundation for level-set parameterisations in geometric inverse problems [@Level]. This framework was subsequently extended to a hierarchical Bayesian formulation in collaboration with Andrew Stuart and Matt Dunlop [@Dunlop]
+
+
+::: {.callout-note title="References"}
+::: {#refs}
+:::
+:::
+
+
+ 

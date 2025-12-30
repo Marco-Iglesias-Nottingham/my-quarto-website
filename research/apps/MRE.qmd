@@ -1,0 +1,13 @@
+---
+title: "Magnetic Resonance Elastography"
+---
+
+::: {.callout-note title="👥 Collaborators"}
+- *Susan Francis (Sir Peter Mansfield Imaging Centre, University of Nottingham)*
+- *Michael Tretyakov (School of Mathematical Sciences, University of Nottingham)* 
+:::
+
+
+
+![MRE. EKI outcomes](Figs_for_MRE/truth_means.svg){fig-alt="Schematic diagram" width="70%"}
+

@@ -1,0 +1,22 @@
+
+---
+title: "Ensemble Kalman Inversion (EKI)"
+toc: true
+---
+
+## Initial Work 
+My work on Ensemble Kalman Inversion (EKI) originated with the paper [@IglesiasEnKF], where concepts from the Ensemble Kalman Filter (EnKF), introduced by Evensen, were reformulated as an iterative solver for PDE-constrained inverse problems. Although similar ensemble ideas had previously been used for parameter identification in oil reservoir modelling, this work provided a unifying inverse problems perspective. As a result, EKI gained broader visibility within the inverse problems community and has since grown into an independent and active research direction.
+
+## EKI from an Iterative Regularisation Perspective
+
+The initial work in [@IglesiasEnKF] showed that a straightforward application of the EnKF as an iterative solver can suffer from stability issues similar to those encountered in classical iterative methods for ill-posed inverse problems: although the data misfit may decrease, the reconstruction error can grow. This observation motivated my subsequent work in [@EnsembleYO], where ideas from Hanke’s regularising Levenberg–Marquardt method were adapted to modify EKI through the introduction of a regularisation parameter. From a heuristic perspective, this modification can be viewed as motivating EKI as a derivative-free approximation of the Levenberg–Marquardt method, in which ensemble-based covariances play the role of approximating local sensitivity information. The resulting scheme enables smoother updates and provides a principled stopping criterion. Although no theoretical analysis was developed at the time, the numerical results were very encouraging.
+
+## EKI from a Bayesian Perspective.
+
+From a Bayesian perspective, EKI can be heuristically motivated using ideas from sequential Monte Carlo methods, where tempering is employed to construct a sequence of intermediate measures bridging the prior and the posterior. Within this viewpoint, EKI may be interpreted as replacing each intermediate posterior by a Gaussian approximation, linearising the forward map, and substituting explicit derivative information with ensemble-based covariance estimates. In the works [@Iglesias_2021; @RTM], we adopted this perspective to derive alternative, adaptive choices of the regularisation parameter in EKI, leading to methods that are robust and stable while still achieving fast convergence. 
+ 
+::: {.callout-note title="References"}
+::: {#refs}
+:::
+:::
+

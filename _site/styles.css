@@ -1,0 +1,157 @@
+/* ============================================================
+   styles.css — Quarto academic website
+   Font: Inter (uniform across body, headers, navbar, bold text)
+   ============================================================ */
+
+/* 1. Load Inter with all needed weights */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* 2. Design tokens + Bootstrap font overrides */
+:root{
+  /* Colours */
+  --bg: #f3f6fb;        /* soft light blue */
+  --fg: #1f2937;
+  --muted: #4b5563;
+  --border: #e1e1dc;
+  --card: transparent;
+  --link: #2563eb;
+  --link-hover: #1d4ed8;
+
+  /* Fonts (Bootstrap + Quarto) */
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI",
+                Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  --bs-font-sans-serif: var(--font-sans);
+  --bs-body-font-family: var(--font-sans);
+  --bs-headings-font-family: var(--font-sans);
+}
+
+/* 3. Global body */
+html, body {
+  background: var(--bg) !important;
+  color: var(--fg) !important;
+  font-family: var(--font-sans) !important;
+  line-height: 1.65;
+}
+
+/* 4. Kill the white content panel */
+main.content,
+.content,
+.page-columns,
+.page-layout-full .content {
+  background: var(--card) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+/* 5. Headings (uniform font + academic weights) */
+h1, h2, h3, h4, h5, h6,
+.quarto-title-block .title,
+.quarto-title-block .subtitle {
+  font-family: var(--font-sans) !important;
+}
+
+h1 { font-weight: 500; }
+h2 { font-weight: 500; }
+h3 { font-weight: 500; }
+h4, h5, h6 { font-weight: 400; }
+
+/* 6. Navbar */
+.navbar,
+.navbar-brand,
+.navbar .nav-link {
+  font-family: var(--font-sans) !important;
+}
+
+.navbar {
+  background: var(--bg) !important;
+  border-bottom: 1px solid var(--border);
+}
+
+.navbar-brand { font-weight: 500; }
+.navbar .nav-link { font-weight: 400; }
+
+.navbar .nav-link.active {
+  font-weight: 500;
+}
+
+/* 7. Title block polish */
+.quarto-title-block .subtitle {
+  text-align: center;
+  color: var(--muted);
+  font-weight: 400;
+}
+
+/* 8. Links */
+/* Softer academic link colour */
+a {
+  color: #3b5b8a;              /* muted steel blue */
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+a:hover {
+  color: #2f4a73;
+}
+
+
+/* 9. Bold / emphasis — FIXES **text looking like a different font** */
+strong, b {
+  font-family: var(--font-sans) !important;
+  font-weight: 600;
+}
+
+em, i {
+  font-family: var(--font-sans) !important;
+  font-style: italic;
+}
+
+/* 10. Lists */
+ul, ol {
+  margin-bottom: 1rem;
+}
+
+/* 11. Tables (clean CV / grants tables) */
+table {
+  font-variant-numeric: tabular-nums;
+}
+
+table th {
+  font-weight: 600;
+}
+
+/* 12. Figures */
+figure figcaption {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* 13. Code (leave monospace untouched) */
+pre, code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+
+/* Sidebar section headers ("Methods", "Applications") */
+.sidebar .sidebar-item-section > .sidebar-item-container > .sidebar-item-text,
+.sidebar .sidebar-section-title {
+  font-weight: 700 !important;
+}
+
+/* Optional: also bold the "Research" sidebar title */
+.sidebar-title, .sidebar-header {
+  font-weight: 700 !important;
+}
+
+
+/* Centre figure captions */
+figure figcaption {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Remove the built-in callout icon */
+.callout .callout-icon-container {
+  display: none;
+}

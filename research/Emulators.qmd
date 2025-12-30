@@ -1,0 +1,18 @@
+---
+title: "Deep Learning Emulators"
+toc: true
+---
+
+Bayesian inverse problems are often computationally expensive, particularly for Bayesian and ensemble-based methods, as they require repeated evaluations of the forward model. In recent work, I have been exploring the use of deep learning techniques to construct surrogate models (emulators) that significantly reduce this computational burden.
+This line of research is primarily motivated by a resin infusion problem arising in composite manufacturing, where real-time or near–real-time inversion is essential [@CAUSON2024108355; @Deep]. In the most recent work [@Deep], we employ a variant of DeepONet to emulate the predictions of resin flow into a fibre reinforcement, with the network trained using data generated from a high-fidelity simulator. The resulting emulator is then embedded within an inverse problem framework to perform efficient parameter inference.
+@fig-deeponet-ekI illustrates the DeepONet predictions, calibrated using experimental data via Ensemble Kalman Inversion (EKI), to estimate the evolution of the resin front at different times in the presence of material defects. For comparison, we also show corresponding snapshots of the resin position obtained from laboratory experiments.
+
+
+![EKI-calibrated DeepONet predictions](Figs_for_MRE/Experiment4.svg){#fig-deeponet-ekI width="70%" fig-align="center"}
+
+
+::: {.callout-note title="References"}
+::: {#refs}
+:::
+:::
+

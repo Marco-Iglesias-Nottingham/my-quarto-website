@@ -1,0 +1,12 @@
+---
+title: "Bayesian Inversion"
+toc: true
+---
+I began working on Bayesian inversion during my postdoctoral research at the University of Warwick, under the supervision of Andrew Stuart. In [@Evaluation], we compared a range of approximate and heuristic Bayesian inversion methods and benchmarked their performance against preconditioned Crank–Nicolson (pCN) MCMC, with applications to oil reservoir models.
+
+In subsequent work, I explored Sequential Monte Carlo methods for Bayesian inversion in the context of resin infusion into fibre reinforcements [@RTM], motivated by applications in composite manufacturing. I have also investigated transform particle filters and related ensemble-based particle methods in [@Ruchi_2019], with a focus on scalable inference in high-dimensional settings.
+
+::: {.callout-note title="References"}
+::: {#refs}
+:::
+:::

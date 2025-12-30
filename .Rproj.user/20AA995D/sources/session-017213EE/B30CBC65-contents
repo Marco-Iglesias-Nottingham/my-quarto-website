@@ -1,0 +1,12 @@
+---
+title: "About"
+---
+
+I am an Associate Professor in Scientific Computation in the  [School of Mathematical Sciences](https://www.nottingham.ac.uk/mathematics) at the [University of Nottingham](https://www.nottingham.ac.uk). My research focuses on the solution of **computational inverse problems**, with particular emphasis on PDE-constrained inverse. I approach these problems from a Bayesian perspective, which allows for a principled treatment of uncertainty and provides a natural framework for uncertainty quantification (UQ). More recently, my work has focused on the development of deep learning–based surrogate models to accelerate Bayesian inversion, enabling efficient inference in large-scale and computationally demanding settings.
+
+A central goal of my work is the development of robust and scalable methods for solving real-world inverse problems, with applications in composite manufacturing, geophysics, civil engineering, and medical imaging. These applications motivate both the mathematical formulation of the problems and the design of efficient numerical algorithms.
+
+
+
+
+

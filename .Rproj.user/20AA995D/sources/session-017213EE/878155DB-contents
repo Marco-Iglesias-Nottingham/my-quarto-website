@@ -1,0 +1,59 @@
+
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Marco Iglesias"
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: research/index.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: github
+        href: https://github.com/Marco-Iglesias-Nottingham
+      - icon: envelope
+        href: mailto:marco.iglesias@nottingham.ac.uk
+
+  sidebar:
+    - title: "Research"
+      style: "floating"
+      collapse-level: 0
+      contents:
+        - section: "Methods"
+          contents:
+            - research/index.qmd
+            - research/EKI.qmd
+            - research/Emulators.qmd
+            - research/BI.qmd
+            - research/iterative.qmd
+            - research/Level-sets.qmd
+        - section: "Applications"
+          contents:
+            - research/apps/index.qmd
+            - research/apps/Composites.qmd
+            - research/apps/Built.qmd
+            - research/apps/MRE.qmd
+            - research/apps/ERT.qmd
+            
+
+bibliography: publications.bib
+csl: ieee.csl
+citeproc: true
+
+format:
+  html:
+    theme: litera
+    css: styles.css
+    toc: false
+    page-layout: full
+    smooth-scroll: true

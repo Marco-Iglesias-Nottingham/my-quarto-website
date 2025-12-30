@@ -1,0 +1,19 @@
+---
+title: "Marco Iglesias"
+
+subtitle: "Associate Professor of Scientific Computation<br>School of Mathematical Sciences<br>University of Nottingham"
+about:
+  template: jolla
+  image: myphoto2.jpeg
+  image-shape: round
+  links:
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.com/...
+    - icon: file-earmark-person
+      text: CV
+      href: cv.pdf
+    - icon: github
+      text: GitHub
+      href: https://github.com/...
+---

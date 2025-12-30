@@ -1,0 +1,12 @@
+---
+title: "Iterative Regularisation"
+toc: true
+---
+
+My work on iterative regularisation dates back to my PhD research, where I combined the representer method with the Levenberg–Marquardt algorithm to solve parameter identification problems arising in flow through porous media, primarily motivated by applications to oil reservoir modelling [@IglesiasDawson1; @IglesiasDawson2; @IglesiasDawson2013]. I have also employed regularising Newton–CG methods for coupled flow and geomechanical models [@Iglesias5].
+Much of this earlier work motivated my later efforts to endow Ensemble Kalman Inversion (EKI) with regularising properties, with the aim of improving stability for ill-posed inverse problems [@EnsembleYO]. More recently, in collaboration with Shuai Lu (Fudan University), Frank Werner (University of Würzburg), and Neil Chada (The University of Hong Kong), we have investigated new variants of the Iteratively Regularised Gauss–Newton method designed to incorporate dynamic data and time-dependent observations, with applications to large-scale inverse problems [@ShuaiFrank].
+
+::: {.callout-note title="References"}
+::: {#refs}
+:::
+:::

@@ -1,0 +1,14 @@
+---
+title: "Publications"
+bibliography: publications.bib
+csl: ieee.csl
+nocite: |
+  @*
+link-citations: true
+citeproc: true
+---
+
+
+
+::: {#refs}
+:::
